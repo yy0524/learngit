@@ -1,5 +1,5 @@
-git config --global user.name SugarOne
-git config --global user.email 659162428@qq.com
+git config --global user.name <名称>
+git config --global user.email <邮箱地址>
 ls
 mkdir <file name>
 git add . 全部添加
@@ -26,3 +26,8 @@ git remote remove <远程库名>
 git remote -v 查看仓库地址
 git remote 查看远程仓库
 git checkout -b dev 创建分支并，切换到分支
+git remote remove <远程库名> 删除的是别名
+git remote add <远程库名> <远程地址> 添加远程库别名
+git remote rename <旧名称> <新名称>
+ssh -keygen -t rsa -C <你的邮箱地址>
+
