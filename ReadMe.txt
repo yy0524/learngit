@@ -13,3 +13,4 @@ git remote add <别名> https://...给远程地址取个别名
 git push origin master origin是默认的远程别名
 git clone https://...克隆地址
 git pull <远程地址别名或者远程地址> master 拉远程代码
+git checkout branch1 切换到branch分支上
