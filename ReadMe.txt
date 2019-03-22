@@ -22,4 +22,7 @@ git branch 查看分支
 git branch <分支名>创建分支
 git checkout branch1 切换到branch分支上
 git merge 合并分支（需切换到要合并的主分支上）
-
+git remote remove <远程库名>
+git remote -v 查看仓库地址
+git remote 查看远程仓库
+git checkout -b dev 创建分支并，切换到分支
