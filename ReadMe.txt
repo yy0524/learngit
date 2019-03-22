@@ -20,4 +20,6 @@ git reset --hard <ID号> 强切换
 git relog 查看以前的log
 git branch 查看分支
 git branch <分支名>创建分支
+git checkout branch1 切换到branch分支上
 git merge 合并分支（需切换到要合并的主分支上）
+
