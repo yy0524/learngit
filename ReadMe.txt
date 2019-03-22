@@ -26,3 +26,4 @@ git remote remove <远程库名>
 git remote -v 查看仓库地址
 git remote 查看远程仓库
 git checkout -b dev 创建分支并，切换到分支
+git branch -d dev 删除分支
