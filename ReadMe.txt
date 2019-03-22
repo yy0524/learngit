@@ -9,8 +9,7 @@ git commit -m "提交内容"
 git rm read.txt 删除read.txt文件
 
 国内有git.occhina.net
-git remote add <别名> https://...给远程地址取个别名
-git push origin master origin是默认的远程别名
+git push origin master origin是取远程别名
 git clone https://...克隆地址
 git pull <远程地址别名或者远程地址> master 拉远程代码
 git log 查看日志
@@ -29,5 +28,8 @@ git checkout -b dev 创建分支并，切换到分支
 git remote remove <远程库名> 删除的是别名
 git remote add <远程库名> <远程地址> 添加远程库别名
 git remote rename <旧名称> <新名称>
-ssh -keygen -t rsa -C <你的邮箱地址>
+ssh-keygen -t rsa -C <你的邮箱地址>
+ssh -T git@github.com 验证ssh是否通信成功
+
+
 
