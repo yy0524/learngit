@@ -56,7 +56,8 @@ git diff 显示提交、提交和工作树等之间的更改
 git merge 将两个或多个开发历史记录合并在一起
 git rebase 在另一个基本提示上重新应用提交
 
-
+忽略文件：
+echo -e "忽略内容" > .gitignore
 
 
 
